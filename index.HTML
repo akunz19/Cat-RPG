@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Fugaz+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/javascript/cat-rpg.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="jumbotron" style="background-color: transparent;">
+    <div class="container rounded" id="game-container">
+      <div id="win-div" class="container text-center" style="font-family: 'Fugaz One', cursive;">
+        <h1 class= "display 1" style="color: #772879;">YOU WIN!!!!!</h1>
+        <img src="assets/images/giphy.gif">
+      </div>
+      <div id="lose-div" class="container text-center" style="font-family: 'Fugaz One', cursive;">
+        <h1 class= "display 1" style="color: #772879;">YOU LOSE! :(</h1>
+        <img src="assets/images/giphy-lose.gif">
+      </div>
+      <div id="content-wrap">
+      <h1 id="site-header">SPACE CATS!</h1>
+      <p class="text-center" style="font-family: 'Exo 2', sans-serif; font-size: 18px;">
+        In a galaxy far, far away, Commander Biz, Peanut the Rebel, and
+        Princess Stanzy are all in a race to see who will rule the galaxy and
+        defeat Darth Laser. Choose your fighter and take over the
+        UNIVERSE!</p>
+      <div class="container" id="choose-div">
+        <h2 id="div-header">Choose Your Player!</h2>
+        <div class="row" id="choose-char"></div>
+      </div>
+      <div class="row" id="player-div">
+        <h2 id="div-header">Player 1</h2>
+      </div>
+      <div class="container">
+      <div class="row" id="attack-div">
+        <h2 id="div-header">Attack!</h2>
+        <div id="opp-Cont"></div>
+        <button class="btn btn-danger" id="attack-button">Attack!</button>
+      </div>
+    </div>
+      <div class="container" id="choose-op-cont">
+        <h2 id="div-header">Choose your Opponent!</h2>
+        <div class="row" id="choose-op-div"></div>
+      </div>
+      <div class="container">
+      <div class="row" id="defeat-div">
+        <h2 id="div-header">Enemies Defeated</h2>
+      </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
